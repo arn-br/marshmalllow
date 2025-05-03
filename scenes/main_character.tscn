@@ -1,0 +1,74 @@
+[gd_scene load_steps=11 format=3 uid="uid://bh1a2j06vga8l"]
+
+[ext_resource type="Script" uid="uid://cc6appdymbjr8" path="res://main_character.gd" id="1_ig48j"]
+[ext_resource type="Texture2D" uid="uid://lbl3r7gud7jc" path="res://pixilart-sprite-charc.png" id="1_nrcqd"]
+[ext_resource type="Texture2D" uid="uid://di4lo5jdmtqoj" path="res://pixil-frame-mm1.png" id="3_tqm6u"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h2yge"]
+atlas = ExtResource("1_nrcqd")
+region = Rect2(0, 0, 800, 800)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1bvp3"]
+atlas = ExtResource("1_nrcqd")
+region = Rect2(800, 0, 800, 800)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lquwl"]
+atlas = ExtResource("1_nrcqd")
+region = Rect2(1600, 0, 800, 800)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7mycd"]
+atlas = ExtResource("1_nrcqd")
+region = Rect2(2400, 0, 800, 800)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_272bh"]
+atlas = ExtResource("1_nrcqd")
+region = Rect2(3200, 0, 800, 800)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ig7tw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h2yge")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1bvp3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lquwl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7mycd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_272bh")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0xm2m"]
+size = Vector2(80, 67)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_ig48j")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-1, 1)
+scale = Vector2(0.115625, 0.11)
+sprite_frames = SubResource("SpriteFrames_ig7tw")
+autoplay = "default"
+frame_progress = 0.493843
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 11.5)
+shape = SubResource("RectangleShape2D_0xm2m")
+
+[node name="CarriedMarshmallow" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="CarriedMarshmallow"]
+texture_filter = 1
+position = Vector2(-0.500001, -64)
+scale = Vector2(2.3125, 2.125)
+texture = ExtResource("3_tqm6u")
