@@ -1,8 +1,7 @@
 [gd_scene load_steps=11 format=3 uid="uid://bh1a2j06vga8l"]
 
 [ext_resource type="Script" uid="uid://cc6appdymbjr8" path="res://main_character.gd" id="1_ig48j"]
-[ext_resource type="Texture2D" uid="uid://lbl3r7gud7jc" path="res://pixilart-sprite-charc.png" id="1_nrcqd"]
-[ext_resource type="Texture2D" uid="uid://di4lo5jdmtqoj" path="res://pixil-frame-mm1.png" id="3_tqm6u"]
+[ext_resource type="Texture2D" uid="uid://lbl3r7gud7jc" path="res://pics/pixilart-sprite-charc.png" id="1_nrcqd"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_h2yge"]
 atlas = ExtResource("1_nrcqd")
@@ -50,6 +49,9 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0xm2m"]
 size = Vector2(80, 67)
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ig48j"]
+load_path = "res://.godot/imported/pixil-frame-mm1.png-1116d8f0be35d04876c6f08f61e07451.ctex"
+
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_ig48j")
 
@@ -71,4 +73,4 @@ shape = SubResource("RectangleShape2D_0xm2m")
 texture_filter = 1
 position = Vector2(-0.500001, -64)
 scale = Vector2(2.3125, 2.125)
-texture = ExtResource("3_tqm6u")
+texture = SubResource("CompressedTexture2D_ig48j")

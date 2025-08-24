@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b6e5xqoegsbxe"
-path="res://.godot/imported/pixil-frame-fences.png-63ea6a1997c61e9a6fa16e0275e3da62.ctex"
+uid="uid://dmg38rlwggjln"
+path="res://.godot/imported/mm-raw.png-9f48ecdd412193fb47d0b6b2bf00bdfb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://pixil-frame-fences.png"
-dest_files=["res://.godot/imported/pixil-frame-fences.png-63ea6a1997c61e9a6fa16e0275e3da62.ctex"]
+source_file="res://pics/mm-raw.png"
+dest_files=["res://.godot/imported/mm-raw.png-9f48ecdd412193fb47d0b6b2bf00bdfb.ctex"]
 
 [params]
 

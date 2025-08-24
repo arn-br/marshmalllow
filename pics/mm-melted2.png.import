@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://djr2v0dkxcihc"
-path="res://.godot/imported/pixilart-sprite-mm.png-da3d45714569db99863962bd0265709e.ctex"
+uid="uid://dlsetuejiu3h0"
+path="res://.godot/imported/mm-melted2.png-347b7779b54a521b37da3cc0f2f2b92c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://pixilart-sprite-mm.png"
-dest_files=["res://.godot/imported/pixilart-sprite-mm.png-da3d45714569db99863962bd0265709e.ctex"]
+source_file="res://pics/mm-melted2.png"
+dest_files=["res://.godot/imported/mm-melted2.png-347b7779b54a521b37da3cc0f2f2b92c.ctex"]
 
 [params]
 

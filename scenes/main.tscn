@@ -1,10 +1,10 @@
 [gd_scene load_steps=12 format=3 uid="uid://bj0w4afr5n6fk"]
 
-[ext_resource type="Texture2D" uid="uid://yn46h0ck088u" path="res://Green.png" id="1_tbgi4"]
+[ext_resource type="Texture2D" uid="uid://yn46h0ck088u" path="res://pics/Green.png" id="1_tbgi4"]
 [ext_resource type="PackedScene" uid="uid://bh1a2j06vga8l" path="res://scenes/main_character.tscn" id="2_tefeu"]
-[ext_resource type="Texture2D" uid="uid://di2qhjg2d8i6h" path="res://pixil-frame-fire.png" id="3_o6xl0"]
-[ext_resource type="Texture2D" uid="uid://dmlqlu03u4mbh" path="res://pixil-frame-aaaaaaf.png" id="4_tipki"]
-[ext_resource type="Texture2D" uid="uid://cymnrnkcmyxqw" path="res://pixil-frame-marmp.png" id="5_85g3d"]
+[ext_resource type="Texture2D" uid="uid://di2qhjg2d8i6h" path="res://pics/pixil-frame-fire.png" id="3_o6xl0"]
+[ext_resource type="Texture2D" uid="uid://dmlqlu03u4mbh" path="res://pics/pixil-frame-aaaaaaf.png" id="4_tipki"]
+[ext_resource type="Texture2D" uid="uid://cymnrnkcmyxqw" path="res://pics/pixil-frame-marmp.png" id="5_85g3d"]
 [ext_resource type="Script" uid="uid://cw5h7robeyrlv" path="res://PickupStand.gd" id="6_tefeu"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lquwl"]

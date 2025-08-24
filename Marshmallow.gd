@@ -40,15 +40,15 @@ func update_state():
 func update_sprite():
 	match state:
 		State.RAW:
-			sprite.texture = preload("res://mm-raw.png")
+			sprite.texture = preload("res://pics/mm-raw.png")
 		State.MELTING1:
-			sprite.texture = preload("res://mm-melted.png")
+			sprite.texture = preload("res://pics/mm-melted.png")
 		State.MELTING2:
-			sprite.texture = preload("res://mm-melted2.png")
+			sprite.texture = preload("res://pics/mm-melted2.png")
 		State.PERFECT:
-			sprite.texture = preload("res://mm-perfect.png")
+			sprite.texture = preload("res://pics/mm-perfect.png")
 		State.BURNT:
-			sprite.texture = preload("res://mm-burnt.png")
+			sprite.texture = preload("res://pics/mm-burnt.png")
 
 func ready_for_collection():
 	return placed and not score_given and state != State.RAW
